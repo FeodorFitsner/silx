@@ -1,0 +1,8 @@
+environment:
+  PYTHON_DIR: C:\Python35-x64
+
+build_script:
+- SET PATH=%PYTHON_DIR%;%PYTHON_DIR%\Scripts;%PATH%
+- pip install --upgrade setuptools
+
+test: off
